@@ -30,7 +30,7 @@ class BooksController extends Controller
         ->make(true);
     }
     
-    return view('books',compact('books'));
+    return view('books.index',compact('books'));
   }
      
     /**
